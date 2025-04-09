@@ -15,4 +15,11 @@ public class TestCaculator {
         Caculator caculator = new Caculator();
         Assert.assertEquals(caculator.sub(2,2),0);
     }
+    @Test
+    public void testMul(){
+        Caculator caculator = new Caculator();
+        Assert.assertEquals(caculator.sub(2,3),6);
+
+
+    }
 }
